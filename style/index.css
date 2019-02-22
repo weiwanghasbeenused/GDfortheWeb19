@@ -9,11 +9,13 @@ body{
 	background-color: yellow;
 }
 h3{
-	font-size: 3vw;
+	font-size: 2vw;
 	background-color: white;
+	padding-bottom: 1vw;
 }
 p {
-	font-size: 3vw;
+	font-size: 2vw;
+	margin-bottom: 1vw;
 }
 a{
 	color:black;
@@ -42,10 +44,12 @@ a:hover{
 	font-size:34vw;
 	top:-3vw;
 	text-align: center;
+	pointer-events:none;
 }
 #exercise1 h1{
 	font-weight: 100;
 	color:blue;
+
 }
 #title{
 	
@@ -58,7 +62,7 @@ a:hover{
 	display: inline-block;
 }
 #title h2{
-	
+
 	background-color: white;
 	line-height: 0.8em;
 }
@@ -73,6 +77,19 @@ a:hover{
 	/*margin-bottom: 1vw;*/
 	display: inline-block;
 }
-
-
+.circle{
+	width:3vw;
+	height:3vw;
+	border-radius: 50%;
+	background-color: blue;
+	position:absolute;
+}
+.circle:first-of-type{
+	top:19.5vw;
+	left: 28.5vw;
+}
+.circle:last-of-type{
+	top:19.5vw;
+	left: 77.5vw;
+}
 
