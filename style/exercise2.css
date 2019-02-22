@@ -1,0 +1,41 @@
+* {
+	margin:0;
+	padding:0;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1em;
+}
+body{
+	padding:2vw 20vw 4vw 5vw;
+	/*background-color: yellow;*/
+}
+p{
+	font-size: 2.2vw;
+	line-height: 1.2em;
+	margin-top: 1.2em;
+}
+li{
+	font-size: 2.2vw;
+	line-height: 1.2em;
+	margin-left: 8vw;
+}
+h1{
+	font-size: 5vw;
+	
+}
+h2{
+	font-size: 2.2vw;
+	margin-top: 1.2em;
+	/*margin-left: 4vw;*/
+	background-color: yellow;
+	display: inline-block;
+
+}
+h3{
+	font-size: 2.2vw;
+	margin-top: 1.2em;
+	margin-left: 8vw;
+	background-color: yellow;
+	display: inline-block;
+
+}
