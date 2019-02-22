@@ -52,19 +52,19 @@ a:hover{
 
 }
 #title{
-	
-	/*position:absolute;*/
 	font-size: 6vw;
-	width:33%;
-	/*margin:0 5vw 0 0;*/
 }
 #title div{
-	display: inline-block;
+	position:absolute;
+	height:0.8vw;
+}
+#title div:last-of-type{
+	margin-top:4.8vw;
 }
 #title h2{
-
 	background-color: white;
 	line-height: 0.8em;
+	padding-top: -1vw;
 }
 
 .subtitle{
